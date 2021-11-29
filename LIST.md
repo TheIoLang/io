@@ -2,6 +2,12 @@
 - [ ] Work on the docs
   - [ ] Work on the styling of the docs
   - [ ] Find a logo for lang
+- [ ] Work on README
+  - [ ] Add more information on the README
+  - [ ] Add contact info on README
+  - [ ] Add contributers on README
+  - [ ] Add examples on README
+  - [ ] Add more links on README
 - [ ] Work on the lang
   - [ ] Work on errors
   - [ ] Work on main compiler
