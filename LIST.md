@@ -9,5 +9,7 @@
     - [ ] Work on parser
     - [ ] Work on lexer
     - [ ] Work on interpreter
-- [ ] Add GitHub attributes and GitHub environments
-  - [ ] Work on GitHub pages
+- [x] Add GitHub settings
+  - [x] Add GitHub attributes 
+  - [x] Add GitHub environments
+  - [x] Work on GitHub pages
