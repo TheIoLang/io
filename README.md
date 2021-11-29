@@ -3,6 +3,8 @@
 # Io
 > An easily syntaxed language used for advanced programming.
 
+## About
+Io is a programming language designed to make programming easier. 
 
 ## Code of Conduct
 The Code of Conduct is [here](https://github.com/JBYT27/io/blob/main/CODE_OF_CONDUCT.md).
