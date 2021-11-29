@@ -1,0 +1,11 @@
+# Progress list:
+- [ ] Work on the docs
+  - [ ] Work on the styling of the docs
+  - [ ] Find a logo for lang
+- [ ] Work on the lang
+  - [ ] Work on errors
+  - [ ] Work on main compiler
+    - [ ] Work on tokens
+    - [ ] Work on parser
+    - [ ] Work on lexer
+    - [ ] Work on interpreter
