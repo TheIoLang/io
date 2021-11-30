@@ -29,6 +29,9 @@ class IoLexer:
     content2 = file.split()
     # print(content)
 
+    ltoken_word = []
+    ltokens = {}
+
     for i in content:
       cline+=1
       if i.startswith("#"):
@@ -94,4 +97,14 @@ class IoLexer:
             pass
           else:
             token = tokens[0]
-        print(token, end=" ")
+        if char == "":
+          # print("\n")
+          print("efsda")
+          """
+          word = "".join(ltoken_word)
+          ltokens.update({word:token})
+          print(ltokens)
+          """
+        # print(token, end=" ")
+        ltoken_word.append(char)
+        # print(ltoken_word)
