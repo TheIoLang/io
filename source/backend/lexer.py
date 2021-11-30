@@ -3,15 +3,19 @@
 from frontend.styles import *
 
 
-class InvalidFileExtension(Exception):
-  pass
-class InvalidFile(Exception):
-  pass
+def InvalidFileExtension(exception):
+  print(red+f"error - line {cline}: "+ exception+white)
+  exit()
+def InvalidFile(exception):
+  print(red+f"error - line {cline}: "+ exception+white)
+  exit()
 
 
 
 class IoLexer:
   def __init__(self, __file__):
+    global cline
+    cline = 0
     try:
       if ".ioo" in __file__:
         f = open(__file__)
@@ -26,6 +30,7 @@ class IoLexer:
     # print(content)
 
     for i in content:
+      cline+=1
       if i.startswith("#"):
         i = ""
         pass
@@ -59,6 +64,8 @@ class IoLexer:
       t_square = "**"
       t_equal = "="
 
+      print(line)
+
       for char in line:
         if char in t_integer:
           token = tokens[1]
@@ -83,5 +90,8 @@ class IoLexer:
         elif char == t_equal:
           token = tokens[11]
         elif type(char) == t_string:
-          token = tokens[0]
-        print(token)
+          if char == " " or char == "\t" or char == "" or char == "  ":
+            pass
+          else:
+            token = tokens[0]
+        print(token, end=" ")
