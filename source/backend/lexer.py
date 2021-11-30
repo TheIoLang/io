@@ -1,5 +1,5 @@
 # The lexer (the lexer identifies everything)
-from .frontend.styles import *
+from frontend.styles import *
 
 
 class InvalidFileExtension(Exception):
