@@ -9,6 +9,9 @@ Io is a programming language designed to make programming easier.
 ## Installation
 To install...
 
+## Contact
+To contact us or issue a bug, go [here]()
+
 ## Code of Conduct
 The Code of Conduct is [here](https://github.com/JBYT27/io/blob/main/CODE_OF_CONDUCT.md).
 
