@@ -3,4 +3,5 @@ import backend.parser as parser
 import backend.token as token
 import backend.interpreter as interpreter
 
-lexer.IoLexer("main.ioo")
+file = lexer.IoLexer("main.ioo")
+print(file.returnTokens())

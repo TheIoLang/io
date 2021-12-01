@@ -4,17 +4,20 @@ from frontend.styles import *
 
 
 def InvalidFileExtension(exception):
-  print(f"{RED}error - line {cline}: {exception}{reset}")
+  print(f"{RED}<invalid file extension>\nerror - line {cline}: {exception}{reset}")
   exit()
 def InvalidFile(exception):
-  print(f"{Red}error - line {cline}: {exception}{reset}")
+  print(f"{Red}<invalid file>\nerror - line {cline}: {exception}{reset}")
   exit()
-
+def UnfoundVariable(exception):
+  print(f"{Red}<unfound variable>\nerror - line {cline}: {exception}{reset}")
+  exit()
 
 
 class IoLexer:
   def __init__(self, __file__):
     global cline
+    global ltokens
     cline = 0
     try:
       if ".ioo" in __file__:
@@ -68,7 +71,15 @@ class IoLexer:
       t_square = "**"
       t_equal = "="
 
-      print(line.split())
+      # print(line.split())
+      
+      """a = line.split()
+      if not a:
+        print("e")
+      else:
+        print("a")
+      """
+      # import time;time.sleep(1)
 
       for char in line:
         if char in t_integer:
@@ -96,17 +107,24 @@ class IoLexer:
         elif type(char) == t_string:
           if char != " " or char != "" or char != "  ":
             token = tokens[0]
-          else:
-          # print("\n")
-          # print("efsda")
-
-            word = "".join(ltoken_word)
-            # print(word)
-            dict_num+=1
-            ltokens[line+u"\uFE61"+str(dict_num)] = token
-            # ltokens.update({word:token})
-            print(ltokens)
+        else:
+          # token = "NOT FOUND"
+          raise UnfoundVariable("no such variable exists!")
+      
+      if line.split():
+        # word = "".join(ltoken_word)
+        # print(word)
+        dict_num+=1
+        word = line+u"\uFE61"+str(dict_num)
+        ltokens[word] = token
+        # ltokens.update({word:token})
+        # print(ltokens)
           
         # print(token, end=" ")
-        ltoken_word.append(char)
+        # ltoken_word.append(char)
         # print(ltoken_word)
+      
+      self.ltokens = ltokens
+    
+  def returnTokens(self):
+    return self.ltokens
