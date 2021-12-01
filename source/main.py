@@ -4,5 +4,5 @@ import backend.token as token
 # import os
 
 
-file = lexer.IoLexer("main.ioeo")
+file = lexer.IoLexer("main.ioo")
 print(file.returnTokens())

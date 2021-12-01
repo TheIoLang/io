@@ -1,6 +1,6 @@
 # The parser (it literally parses the code)
 
-from backend.token import *
+from backend.lexer import *
 
 class IoParser:
   def __init__(self):
