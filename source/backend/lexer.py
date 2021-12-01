@@ -4,10 +4,10 @@ from frontend.styles import *
 
 
 def InvalidFileExtension(exception):
-  print(red+f"error - line {cline}: "+ exception+white)
+  print(f"{RED}error - line {cline}: {exception}{reset}")
   exit()
 def InvalidFile(exception):
-  print(red+f"error - line {cline}: "+ exception+white)
+  print(f"{Red}error - line {cline}: {exception}{reset}")
   exit()
 
 
@@ -31,6 +31,7 @@ class IoLexer:
 
     ltoken_word = []
     ltokens = {}
+    dict_num = 0
 
     for i in content:
       cline+=1
@@ -67,7 +68,7 @@ class IoLexer:
       t_square = "**"
       t_equal = "="
 
-      print(line)
+      print(line.split())
 
       for char in line:
         if char in t_integer:
@@ -93,18 +94,19 @@ class IoLexer:
         elif char == t_equal:
           token = tokens[11]
         elif type(char) == t_string:
-          if char == " " or char == "\t" or char == "" or char == "  ":
-            pass
-          else:
+          if char != " " or char != "" or char != "  ":
             token = tokens[0]
-        if char == "":
+          else:
           # print("\n")
-          print("efsda")
-          """
-          word = "".join(ltoken_word)
-          ltokens.update({word:token})
-          print(ltokens)
-          """
+          # print("efsda")
+
+            word = "".join(ltoken_word)
+            # print(word)
+            dict_num+=1
+            ltokens[line+u"\uFE61"+str(dict_num)] = token
+            # ltokens.update({word:token})
+            print(ltokens)
+          
         # print(token, end=" ")
         ltoken_word.append(char)
         # print(ltoken_word)
