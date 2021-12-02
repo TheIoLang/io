@@ -17,6 +17,16 @@ def UnfoundVariable(exception):
   exit()
 
 
+def group(seq, sep):
+  g = []
+  for el in seq:
+    if el == sep:
+      yield g
+      g = []
+    g.append(el)
+  yield g
+
+
 class IoLexer:
   def __init__(self, __file__):
     global cline
@@ -58,7 +68,9 @@ class IoLexer:
         "STRING", "INTEGER", "FLOAT", "BOOL",
         "LPAREN", "RPAREN",
         "PLUS", "MINUS", "DIVIDE", "MULTI", "SQUARE", 
-        "EQUAL"
+        "EQUAL",
+        "VARIABLE",
+        "PRINT", "INPUT"
       )
 
       t_string = str
@@ -83,6 +95,13 @@ class IoLexer:
         print("a")
       """
       # import time;time.sleep(1)
+
+      if " " in line:
+        findspace = line.find(" ")
+        if findspace != -1:
+          line.split("\n")
+      # print(line)
+      # print(list(group(line.split(), " ")))
 
       for char in line:
         if char in t_integer:
