@@ -102,8 +102,12 @@ class IoLexer:
           line.split("\n")
       # print(line)
       # print(list(group(line.split(), " ")))
+      # print(line.split())
+      # print(line)
+
 
       for char in line:
+        print(line.split())
         if char in t_integer:
           token = tokens[1]
         elif type(char) == t_float:
@@ -132,19 +136,19 @@ class IoLexer:
         else:
           # token = "NOT FOUND"
           raise UnfoundVariable("no such variable exists!")
-      
-      if line.split():
-        # word = "".join(ltoken_word)
-        # print(word)
-        dict_num+=1
-        word = line+u"\uFE61"+str(dict_num)
-        ltokens[word] = token
-        # ltokens.update({word:token})
-        # print(ltokens)
-          
-        # print(token, end=" ")
-        # ltoken_word.append(char)
-        # print(ltoken_word)
+        
+        if char == " ":
+          # word = "".join(ltoken_word)
+          # print(word)
+          dict_num+=1
+          word = line+u"\uFE61"+str(dict_num)
+          ltokens[word] = token
+          # ltokens.update({word:token})
+          # print(ltokens)
+            
+          # print(token, end=" ")
+          # ltoken_word.append(char)
+          # print(ltoken_word)
       
       self.ltokens = ltokens
     
