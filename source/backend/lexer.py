@@ -107,7 +107,6 @@ class IoLexer:
 
 
       for char in line:
-        print(line.split())
         if char in t_integer:
           token = tokens[1]
         elif type(char) == t_float:
