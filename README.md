@@ -2,6 +2,8 @@
 
 **Note: _We currently do not have an assigned logo yet, and if you guys could please give ideas, that would be appreciated. Thanks!_**
 
+**Another Note: _This branch is being used to develop the lexer, so it will have a lot of bugs._**
+
 # Io
 > An easily syntaxed language used for advanced programming.
 
