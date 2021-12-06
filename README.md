@@ -12,7 +12,7 @@ Io is a programming language designed to make programming easier.
 To install...
 
 ## Contact
-To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/JBYT27/io/issues). More information can be found on the [home website](https://jbyt27.github.io/io/).
+To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/JBYT27/io/issues). It is preferred to leave an issue, but if you don't feel like it, post a [discussion](https://github.com/JBYT27/io/discussions). More information can be found on the [home website](https://jbyt27.github.io/io/).
 
 ## Code of Conduct
 The Code of Conduct is [here](https://github.com/JBYT27/io/blob/main/CODE_OF_CONDUCT.md).
