@@ -4,8 +4,6 @@ from backend.lexer import *
 
 
 class IoTokens:
-  def __init__(self):
-    file = lexer.IoLexer("main.ioo")
-    contents = file.returnTokens()
-
-    
+    def __init__(self):
+        file = lexer.IoLexer("main.ioo")
+        contents = file.returnTokens()

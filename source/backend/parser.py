@@ -2,6 +2,7 @@
 
 from backend.lexer import *
 
+
 class IoParser:
-  def __init__(self):
-    pass
+    def __init__(self):
+        pass
