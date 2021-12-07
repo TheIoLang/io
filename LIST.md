@@ -1,7 +1,7 @@
 # Progress list:
 - [ ] Work on the docs
   - [ ] Work on the styling of the docs
-  - [ ] Find a logo for lang
+  - [ ] Find a logo for lang (WORKING ON)
 - [ ] Work on README
   - [ ] Add more information on the README
   - [ ] Add contact info on README
