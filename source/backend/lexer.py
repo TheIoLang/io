@@ -101,12 +101,13 @@ class IoLexer:
 
             # print(line.split())
 
-            """a = line.split()
-      if not a:
-        print("e")
-      else:
-        print("a")
-      """
+            """
+            a = line.split()
+            if not a:
+              print("e")
+            else:
+              print("a")
+            """
             # import time;time.sleep(1)
 
             if " " in line:
