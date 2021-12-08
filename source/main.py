@@ -6,4 +6,3 @@ import backend.token as token
 
 
 file = lexer.IoLexer("main.ioo")
-print(file.returnTokens())
