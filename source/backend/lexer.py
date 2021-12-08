@@ -3,24 +3,6 @@
 from frontend.styles import *
 
 
-def InvalidFileExtension(exception):
-    error = "error: <invalid file extension>".center(40)
-    print(f"{bold}{Red}{error}{reset}{Red}\n\t-> line {cline}: {underline}{exception}{reset}")
-    exit()
-
-
-def InvalidFile(exception):
-    error = "error: <invalid file>".center(40)
-    print(f"{bold}{Red}{error}{reset}{Red}\n\t-> line {cline}: {underline}{exception}{reset}")
-    exit()
-
-
-def UnfoundVariable(exception):
-    error = "error: <unfound variable>".center(40)
-    print(f"{bold}{Red}{error}{reset}{Red}\n\t-> line {cline}: {underline}{exception}{reset}")
-    exit()
-
-
 def group(seq, sep):
     g = []
     for el in seq:
@@ -146,7 +128,6 @@ class IoLexer:
                     if char != " " or char != "" or char != "  ":
                         token = tokens[0]
                 else:
-                    # token = "NOT FOUND"
                     raise UnfoundVariable("no such variable exists!")
 
                 if char == " ":
