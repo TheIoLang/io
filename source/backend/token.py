@@ -1,6 +1,6 @@
 # The tokens (lists all the tokens, everything with tokens)
 
-from backend.lexer import *
+import backend.lexer as lexer
 
 
 class IoTokens:

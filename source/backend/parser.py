@@ -1,6 +1,6 @@
 # The parser (it literally parses the code)
 
-from backend.token import *
+import backend.token as token
 
 def InvalidFileExtension(exception):
     error = "error: <invalid file extension>".center(40)
