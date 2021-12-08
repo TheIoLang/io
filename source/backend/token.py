@@ -3,10 +3,15 @@
 import backend.lexer as lexer
 
 
-class IoTokens:
-    def __init__(self):
+class IoToken:
+    def __init__(self, e):
+        # global dict_num
+
+        dict_num = 0
+        ltoken_word = []
+        ltokens = {}
         file = lexer.IoLexer("main.ioo")
-        line = lexer.return_value()
+        line = file.return_value()
         tokens = (
                 "STRING",
                 "INTEGER",

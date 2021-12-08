@@ -31,10 +31,6 @@ class IoLexer:
         content2 = file.split()
         # print(content)
 
-        ltoken_word = []
-        ltokens = {}
-        dict_num = 0
-
         for i in content:
             cline += 1
             if i.startswith("#"):
