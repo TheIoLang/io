@@ -1,6 +1,6 @@
 **⚠️ `CAUTION:` _Note that this is a WIP, and is not yet perfected. There will be errors, and it would be appreciated if you let us know about it. Make an issue <a href="https://github.com/TheIoLang/io/issues">here</a>._ ⚠️**
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Io 
@@ -27,8 +27,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bd103.github.io"><img src="https://avatars.githubusercontent.com/u/59022059?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BD103</b></sub></a><br /><a href="https://github.com/JBYT27/io/commits?author=BD103" title="Code">💻</a></td>
-    <td align="center"><a href="http://jbloves27.repl.co"><img src="https://avatars.githubusercontent.com/u/76911308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>an aspirin</b></sub></a><br /><a href="https://github.com/JBYT27/io/commits?author=JBYT27" title="Code">💻</a> <a href="#maintenance-JBYT27" title="Maintenance">🚧</a> <a href="#tool-JBYT27" title="Tools">🔧</a> <a href="https://github.com/JBYT27/io/commits?author=JBYT27" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://jbloves27.repl.co"><img src="https://avatars.githubusercontent.com/u/76911308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>an aspirin</b></sub></a><br /><a href="https://github.com/TheIoLang/Io/commits?author=JBYT27" title="Code">💻</a> <a href="#maintenance-JBYT27" title="Maintenance">🚧</a> <a href="#tool-JBYT27" title="Tools">🔧</a> <a href="https://github.com/TheIoLang/Io/commits?author=JBYT27" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://bd103.github.io"><img src="https://avatars.githubusercontent.com/u/59022059?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BD103</b></sub></a><br /><a href="https://github.com/TheIoLang/Io/commits?author=BD103" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/darkdarcool"><img src="https://avatars.githubusercontent.com/u/66882633?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Catermelon</b></sub></a><br /><a href="https://github.com/TheIoLang/Io/commits?author=darkdarcool" title="Code">💻</a></td>
   </tr>
 </table>
 
