@@ -13,10 +13,10 @@ Io is a programming language designed to make programming easier.
 To install...
 
 ## Contact
-To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/TheIoLang/io/issues). More information can be found on the [home website](https://theiolang.github.io/io/).
+To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/TheIoLang/Io/issues). More information can be found on the [home website](https://theiolang.github.io/io/).
 
 ## Contributing
-The contributing guidelines are [here](https://github.com/TheIoLang/io/blob/main/CONTRIBUTING.md).
+The contributing guidelines are [here](https://github.com/TheIoLang/Io/blob/main/CONTRIBUTING.md).
 
 ## Contributors ✨
 
@@ -40,7 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Code of Conduct
-The Code of Conduct is [here](https://github.com/TheIoLang/io/blob/main/CODE_OF_CONDUCT.md).
+The Code of Conduct is [here](https://github.com/TheIoLang/Io/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
-This project is under the [Apache-2.0 License](https://github.com/TheIoLang/io/blob/main/LICENSE).
+This project is under the [Apache-2.0 License](https://github.com/TheIoLang/Io/blob/main/LICENSE).
