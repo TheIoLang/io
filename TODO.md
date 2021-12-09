@@ -4,10 +4,10 @@
   - [ ] Find a logo for lang (WORKING ON)
 - [ ] Work on README
   - [ ] Add more information on the README
-  - [ ] Add contact info on README
-  - [ ] Add contributers on README
+  - [x] Add contact info on README
+  - [x] Add contributers on README
   - [ ] Add examples on README
-  - [ ] Add more links on README
+  - [x] Add more links on README
 - [ ] Work on the lang
   - [ ] Work on errors
   - [ ] Work on main compiler
