@@ -25,11 +25,20 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "darkdarcool",
+      "name": "Catermelon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66882633?v=4",
+      "profile": "https://github.com/darkdarcool",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "io",
-  "projectOwner": "JBYT27",
+  "projectName": "Io",
+  "projectOwner": "TheIoLang",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
