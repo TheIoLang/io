@@ -13,6 +13,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JBYT27",
+      "name": "an aspirin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76911308?v=4",
+      "profile": "http://jbloves27.repl.co",
+      "contributions": [
+        "code",
+        "maintenance",
+        "tool",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
