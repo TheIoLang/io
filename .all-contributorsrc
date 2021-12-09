@@ -6,15 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "BD103",
-      "name": "BD103",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59022059?v=4",
-      "profile": "https://bd103.github.io",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "JBYT27",
       "name": "an aspirin",
       "avatar_url": "https://avatars.githubusercontent.com/u/76911308?v=4",
@@ -24,6 +15,15 @@
         "maintenance",
         "tool",
         "doc"
+      ]
+    },
+    {
+      "login": "BD103",
+      "name": "BD103",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59022059?v=4",
+      "profile": "https://bd103.github.io",
+      "contributions": [
+        "code"
       ]
     }
   ],
