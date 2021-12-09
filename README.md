@@ -3,8 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-**Note: _We currently do not have an assigned logo yet, and if you guys could please give ideas, that would be appreciated. Thanks!_**
-
 # Io 
 > An easily syntaxed language used for advanced programming.
 
