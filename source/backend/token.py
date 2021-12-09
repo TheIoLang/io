@@ -28,6 +28,7 @@ class IoToken:
                 "VARIABLE",
                 "PRINT",
                 "INPUT",
+                "COMMENT",
         )
 
         t_string = str

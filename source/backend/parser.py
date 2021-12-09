@@ -20,5 +20,11 @@ def UnfoundVariable(exception):
     exit()
 
 class IoParser:
-    def __init__(self):
-        pass
+    def __init__(self, __file__):
+        try:
+            if ".ioo" in __file__:
+                f = open(__file__)
+            else:
+                raise InvalidFileExtension("that is not a correct file extension!")
+        except:
+            raise InvalidFile("no such file exists!")
