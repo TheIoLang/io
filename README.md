@@ -1,4 +1,7 @@
 **⚠️ `CAUTION:` _Note that this is a WIP, and is not yet perfected. There will be errors, and it would be appreciated if you let us know about it. Make an issue <a href="https://github.com/JBYT27/io/issues">here</a>._ ⚠️**
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Note: _We currently do not have an assigned logo yet, and if you guys could please give ideas, that would be appreciated. Thanks!_**
 
@@ -24,3 +27,23 @@ The contributing guidelines are [here](https://github.com/JBYT27/io/blob/main/CO
 ## License
 This project is under the [Apache-2.0 License](https://github.com/JBYT27/io/blob/main/LICENSE).
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bd103.github.io"><img src="https://avatars.githubusercontent.com/u/59022059?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BD103</b></sub></a><br /><a href="https://github.com/JBYT27/io/commits?author=BD103" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
