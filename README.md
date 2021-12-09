@@ -6,7 +6,6 @@
 **Note: _We currently do not have an assigned logo yet, and if you guys could please give ideas, that would be appreciated. Thanks!_**
 
 # Io 
-
 > An easily syntaxed language used for advanced programming.
 
 ## About
@@ -16,7 +15,7 @@ Io is a programming language designed to make programming easier.
 To install...
 
 ## Contact
-To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/TheIoLang/io/issues). More information can be found on the [home website](https://jbyt27.github.io/io/).
+To contact us, you can either email us @ beol0127@gmail.com, or issue a bug [here](https://github.com/TheIoLang/io/issues). More information can be found on the [home website](https://theiolang.github.io/io/).
 
 ## Contributing
 The contributing guidelines are [here](https://github.com/TheIoLang/io/blob/main/CONTRIBUTING.md).
