@@ -1,2 +1,2 @@
-run = "python source/main.py"
+run = "python3 source/main.py"
 language = "nix"
