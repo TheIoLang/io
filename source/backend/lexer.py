@@ -14,13 +14,13 @@ def group(seq, sep):
 
 
 class IoLexer:
-    def __init__(self, lexing=True):
+    def __init__(self, data, lexing=True):
           if lexing == True:
               global cline
               global ltokens
               cline = 0
 
-              file = f.read()
+              file = data# f.read()
               content = file.split("\n")
               content2 = file.split()
               # print(content)
@@ -45,7 +45,7 @@ class IoLexer:
             exception = "lexing is not allowed!"
             error = "error: <invalid lexing>".center(40)
             print(f"{bold}{Red}{error}{reset}{Red}\n\t-> line {cline}: {underline}{exception}{reset}")
-    exit()
+    # exit()
 
     def return_value(self):
       return self.line
