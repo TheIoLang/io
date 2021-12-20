@@ -30,7 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://jbloves27.repl.co"><img src="https://avatars.githubusercontent.com/u/76911308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>an aspirin</b></sub></a><br /><a href="https://github.com/TheIoLang/io/commits?author=JBYT27" title="Code">💻</a> <a href="#maintenance-JBYT27" title="Maintenance">🚧</a> <a href="#tool-JBYT27" title="Tools">🔧</a> <a href="https://github.com/TheIoLang/io/commits?author=JBYT27" title="Documentation">📖</a></td>
     <td align="center"><a href="https://bd103.github.io"><img src="https://avatars.githubusercontent.com/u/59022059?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BD103</b></sub></a><br /><a href="https://github.com/TheIoLang/io/commits?author=BD103" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/darkdarcool"><img src="https://avatars.githubusercontent.com/u/66882633?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Catermelon</b></sub></a><br /><a href="https://github.com/TheIoLang/io/commits?author=darkdarcool" title="Code">💻</a></td>
-    <td align="center"><a href="https://dillonb07.is-a.dev"><img src="https://avatars.githubusercontent.com/u/83948303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon Barnes</b></sub></a><br /><a href="#design-DillonB07" title="Design">🎨</a></td>
+    <td align="center"><a href="https://dillonb07.is-a.dev"><img src="https://avatars.githubusercontent.com/u/83948303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon Barnes</b></sub></a><br /><a href="#design-DillonB07" title="Design">🎨</a> <a href="https://github.com/TheIoLang/io/commits?author=DillonB07" title="Documentation">📖</a></td>
   </tr>
 </table>
 
