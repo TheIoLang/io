@@ -42,7 +42,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Code of Conduct
-The Code of Conduct is [here](https://github.com/TheIoLang/Io/blob/main/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/TheIoLang/Io/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
-This project is under the [Apache-2.0 License](https://github.com/TheIoLang/Io/blob/main/LICENSE).
+[Apache-2.0 License](https://github.com/TheIoLang/Io/blob/main/LICENSE).
